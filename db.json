@@ -1,7 +1,7 @@
 {
     "data": [
       {
-        "service": "MailService",
+        "service": "MailService2",
         "version": "1.0",
         "description": "Get mail from mail server",
         "customer": "customer",
