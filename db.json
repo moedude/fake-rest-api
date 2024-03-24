@@ -68,6 +68,29 @@
         "svnActive": "True",
         "svnUpdates": "True",
         "debug_show_json": "True"
+      },
+      {
+        "service": "folderCheck",
+        "version": "2.1",
+        "description": "Ensure all required folders are present",
+        "customer": "some_other_customer",
+        "engine": "engine3",
+        "engine_version": "3.0",
+        "process_id": "9012",
+        "logdir": "/var/log",
+        "logdebug": "True",
+        "license_expiration": "2025-12-31",
+        "timestamp": "2025-12-31 23:59:59",
+        "checkFolders": [
+          "/var/log",
+          "/var/log4"
+        ],
+        "folderErrors": [
+          "/var/log4"
+        ],
+        "svnActive": "True",
+        "svnUpdates": "True",
+        "debug_show_json": "True"
       }
     ]
   }
